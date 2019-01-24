@@ -4,7 +4,7 @@
 # 依赖支付宝
 implementation 'com.github.LongAgoLong.PayUtil:payali:1.0'
 
-在AndroidManifest.xml中配置：
+#在AndroidManifest.xml中配置：
 
 <activity
     android:name="com.alipay.sdk.app.H5PayActivity"
@@ -22,7 +22,7 @@ implementation 'com.github.LongAgoLong.PayUtil:payali:1.0'
 # 依赖微信
 implementation 'com.github.LongAgoLong.PayUtil:paywechat:1.0'
 
-在AndroidManifest.xml中配置：
+#在AndroidManifest.xml中配置：
 
 <activity
     android:name="com.leo.paywechat.WXPayEntryActivity"
@@ -32,7 +32,7 @@ implementation 'com.github.LongAgoLong.PayUtil:paywechat:1.0'
 # 依赖QQ
 implementation 'com.github.LongAgoLong.PayUtil:payqq:1.0'
 
-在AndroidManifest.xml中配置：
+#在AndroidManifest.xml中配置：
 
 <activity
     android:name="com.leo.payqq.QQCallbackActivity"
