@@ -33,7 +33,11 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
     implementation 'com.trello.rxlifecycle2:rxlifecycle:2.2.1'
     implementation 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
-    implementation project(':payali')
-    implementation project(':payqq')
-    implementation project(':paywechat')
+//    implementation project(':payali')
+//    implementation project(':payqq')
+//    implementation project(':paywechat')
+
+    implementation 'com.github.LongAgoLong.PayUtil:payali:1.0'
+    implementation 'com.github.LongAgoLong.PayUtil:paywechat:1.0'
+    implementation 'com.github.LongAgoLong.PayUtil:payqq:1.0'
 }
