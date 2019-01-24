@@ -3,6 +3,7 @@
 包括支付宝、微信支付、QQ支付(可拆分单独依赖)
 # 依赖支付宝
 implementation 'com.github.LongAgoLong.PayUtil:payali:1.0'
+
 在AndroidManifest.xml中配置：
         <activity
             android:name="com.alipay.sdk.app.H5PayActivity"
@@ -18,6 +19,7 @@ implementation 'com.github.LongAgoLong.PayUtil:payali:1.0'
             android:windowSoftInputMode="adjustResize|stateHidden" />
 # 依赖微信
 implementation 'com.github.LongAgoLong.PayUtil:paywechat:1.0'
+
 在AndroidManifest.xml中配置：
         <activity
             android:name="com.leo.paywechat.WXPayEntryActivity"
@@ -25,6 +27,7 @@ implementation 'com.github.LongAgoLong.PayUtil:paywechat:1.0'
             android:launchMode="singleTop" />
 # 依赖QQ
 implementation 'com.github.LongAgoLong.PayUtil:payqq:1.0'
+
 在AndroidManifest.xml中配置：
         <activity
             android:name="com.leo.payqq.QQCallbackActivity"
