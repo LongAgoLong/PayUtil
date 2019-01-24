@@ -2,7 +2,9 @@
 支付封装工具  
 包括支付宝、微信支付、QQ支付(可拆分单独依赖)
 # 依赖支付宝
+```javascript
 implementation 'com.github.LongAgoLong.PayUtil:payali:1.0'  
+```
 在AndroidManifest.xml中配置：
 ```javascript
 <activity
@@ -19,7 +21,9 @@ implementation 'com.github.LongAgoLong.PayUtil:payali:1.0'
     android:windowSoftInputMode="adjustResize|stateHidden" />
 ```   
 # 依赖微信
+```javascript
 implementation 'com.github.LongAgoLong.PayUtil:paywechat:1.0'  
+```
 在AndroidManifest.xml中配置：
 ```javascript
 <activity
@@ -28,8 +32,9 @@ implementation 'com.github.LongAgoLong.PayUtil:paywechat:1.0'
     android:launchMode="singleTop" />
 ```    
 # 依赖QQ
+```javascript
 implementation 'com.github.LongAgoLong.PayUtil:payqq:1.0'  
-
+```
 在AndroidManifest.xml中配置：
 ```javascript
 <activity
