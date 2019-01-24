@@ -20,7 +20,7 @@ implementation 'com.github.LongAgoLong.PayUtil:payali:1.0'
     android:screenOrientation="behind"
     android:windowSoftInputMode="adjustResize|stateHidden" />
 ```   
-# 依赖微信
+# 依赖微信支付
 ```javascript
 implementation 'com.github.LongAgoLong.PayUtil:paywechat:1.0'  
 ```
@@ -31,7 +31,7 @@ implementation 'com.github.LongAgoLong.PayUtil:paywechat:1.0'
     android:exported="true"
     android:launchMode="singleTop" />
 ```    
-# 依赖QQ
+# 依赖QQ支付
 ```javascript
 implementation 'com.github.LongAgoLong.PayUtil:payqq:1.0'  
 ```
